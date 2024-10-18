@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/x-icon" href="./public/images/logo-x11.png">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Incolearn | Course | QA Testing Master</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="top-bar">
+            <div class="top-bar__content">
+                <section class="phone">
+                    <i class="fa-solid fa-phone icon"></i>
+                    <span>+91-8330965820</span>
+                </section>
+                <section class="email">
+                    <i class="fa-solid fa-envelope icon"></i>
+                    <span>enquiry@incolearn.com</span>
+                </section>
+                <div class="top-bar-login">
+                    <span><a class="text-light" href="./login-form.html">Login</a></span>
+                    <span><a>|</a></span>
+                    <span><a class="text-light" href="./register-form.html">Register</a></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bottom-bar">
+            <div class="bottom-bar__content">
+                <a href="index.html" class="logo">
+                    <img class="logo__img" src="./public/images/logo-x1.png" alt="logo" loading="lazy">
+                </a>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="courses.html" class="nav__link">Courses</a></li>
+                        <li><a href="under-const.html" class="nav__link">Live Projects</a></li>
+                        <li><a href="blog.html" class="nav__link">Blogs</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="nav__link dropdown-toggle">More</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="events.html">Our Events</a></li>
+                                <li><a href="under-const.html">Career</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!----------------------Course-home-section---------------------->
+
+    <section class="first-sec-two-halves-section">
+        <div class="first-sec-left-half">
+            <h1>Master In QA Testing</h1>
+            <ul class="first-sec-points">
+                <li><i class="fas fa-check-circle"></i> Gain a deep understanding of quality assurance principles and
+                    methodologies.</li>
+                <li><i class="fas fa-check-circle"></i> Learn to design and execute comprehensive test plans and test
+                    cases.</li>
+                <li><i class="fas fa-check-circle"></i> Develop skills in automated testing tools and frameworks.</li>
+                <li><i class="fas fa-check-circle"></i> Master the techniques for identifying, documenting, and
+                    reporting software defects.</li>
+                <li><i class="fas fa-check-circle"></i> Understand best practices for integrating QA processes within
+                    the software development lifecycle.</li>
+
+            </ul>
+            <div class="first-sec-buttons">
+                <button class="first-sec-btn-custom first-sec-btn-primary-custom">Get Started</button>
+                <button class="first-sec-btn-custom first-sec-btn-secondary-custom">Learn More</button>
+            </div>
+
+            <div class="training-team">
+                <a>Want to Train your team? : <span class="get-quote" data-bs-toggle="modal"
+                        data-bs-target="#contactUsModal">Get a quote</span></a>
+                <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="contactUsModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title " id="contactUsModalLabel">Connect us</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="input-group">
+                                            <select class="form-select" id="countryCode">
+                                                <option value="IN">IN +91</option>
+                                                <option value="US">US +1</option>
+                                                <option value="UK">UK +44</option>
+                                            </select>
+                                            <input type="text" class="form-control" id="phoneNumber"
+                                                placeholder="Phone Number">
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="privacyPolicy">
+                                        <label class="form-check-label" for="privacyPolicy">By providing your
+                                            contact details,
+                                            you agree to our privacy policy</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="first-sec-right-half">
+            <img src="./public/images/image incolearn.png" alt="Course Image" loading="lazy">
+            <div class="first-sec-info-container">
+                <div class="first-sec-info-box first-sec-learners-box">
+                    <i class="fas fa-users"></i>
+                    <div>
+                        <h5>20,000+ Learners</h5>
+                    </div>
+                </div>
+                <div class="first-sec-info-box first-sec-rating-box">
+                    <i class="fas fa-star"></i>
+                    <div>
+                        <h5>4.8/5 Ratings</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------section-2 ------------------->
+
+    <section class="course-container-pmp container">
+        <div class="row">
+            <div class="pmp-course-left-text col-md-8">
+                <h1>Course Overview</h1>
+                <p>Our Master in QA Testing course covers essential quality assurance principles, tools, and
+                    methodologies. You'll learn to create and execute test plans, perform automated testing, and
+                    maintain software quality throughout development.</p>
+                <p>Through hands-on practice and expert guidance, this course equips you to identify defects, apply QA
+                    best practices, and contribute to producing high-quality software.</p>
+                <div class="Course-Key-Features mt-3 d-flex flex-wrap">
+                    <div class="Course-key-features-left">
+                        <p><span><i class="bi bi-check-circle-fill"></i></span> In-depth QA methodologies and tools.</p>
+                        <p><span><i class="bi bi-check-circle-fill"></i></span> Practical test planning and execution.
+                        </p>
+                        <p><span><i class="bi bi-check-circle-fill"></i></span> Automated testing frameworks training.
+                        </p>
+                    </div>
+                    <div class="Course-key-features-right">
+                        <p><span><i class="bi bi-check-circle-fill"></i></span> Skills in defect identification and
+                            reporting.</p>
+                        <p><span><i class="bi bi-check-circle-fill"></i></span> QA best practices in development.</p>
+                        <p><span><i class="bi bi-check-circle-fill"></i></span> Real-world scenarios and applications.
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="pmp-course-table col-md-4 p-5">
+                <div class="cohort-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Name*" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email*" required>
+                        </div>
+                        <div class="form-group">
+                            <div class="dropdown">
+                                <select>
+                                    <option value="IN">IN +91</option>
+                                    <option value="US">US +1</option>
+                                    <option value="UK">UK +44</option>
+                                </select>
+                            </div>
+                            <input type="tel" placeholder="Phone Number*" required>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="btn-primary">Talk to Advisor</button>
+                        </div>
+                        <div class="info-text">
+                            <p>By providing your contact details, you agree to our <span class="info-text-span">Privacy
+                                    Policy</span></p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------>
+
+
+
+    <!-------------------------faqssss---------------------->
+
+    <div class="curriculum">
+        <div class="container mt-3">
+            <div class="row">
+                <!-- Left Section -->
+                <div class="col-md-8">
+                    <h1>Master in QA Testing Course Curriculum</h1>
+                    <h4 class="mt-3">Eligibility</h4>
+                    <p>This course is suitable for professionals and graduates with a background in computer science,
+                        software development, or related fields. A basic understanding of software development processes
+                        is recommended.</p>
+                    <ul class="course-curiculm-ul">
+                        <li><i class="fas fa-check-circle"></i> Prior knowledge of basic programming concepts.</li>
+                        <li><i class="fas fa-check-circle"></i> Familiarity with software development lifecycle.</li>
+                        <li><i class="fas fa-check-circle"></i> Basic understanding of software testing principles.</li>
+                        <li><i class="fas fa-check-circle"></i> A passion for quality assurance and attention to detail.
+                        </li>
+                    </ul>
+
+                    <h4 class="mt-3">Pre-requisites</h4>
+                    <p>Before enrolling, you should be comfortable with basic programming and have an understanding of
+                        software development workflows. Experience with manual or automated testing is a plus but not
+                        mandatory.</p>
+                    <div id="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-item-header" id="headingOne" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <p class="mb-0"><span><i class="ri-add-line"></i></span> Module : 01
+                                    <button class="preview-btn">Preview</button>
+                                </p>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordion">
+                                <div class="accordion-item-body">
+                                    <ul>
+                                        <li>- Introduction to Quality Assurance</li>
+                                        <li>- QA principles and concepts</li>
+                                        <li>- Role of QA in the software development life cycle</li>
+                                        <li>- Software Testing Fundamentals</li>
+                                        <li>- Types of testing (e.g., unit testing, integration testing, system testing,
+                                            acceptance testing)</li>
+                                        <li>- Test case design techniques</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-item-header" id="headingTwo" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <p class="mb-0"><span><i class="ri-add-line"></i></span> Module : 02
+                                    <button class="preview-btn">Preview</button>
+                                </p>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordion">
+                                <div class="accordion-item-body">
+                                    <ul>
+                                        <li>- Test planning and test strategy</li>
+                                        <li>- Test Automation</li>
+                                        <li>- Introduction to test automation tools (e.g., Selenium, JUnit, TestNG)</li>
+                                        <li>- Creating and executing automated test scripts</li>
+                                        <li>- Test automation frameworks</li>
+                                        <li>- Understanding performance testing and its significance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more sections as needed -->
+                        <div class="accordion-item">
+                            <div class="accordion-item-header" id="headingThree" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <p class="mb-0"><span><i class="ri-add-line"></i></span> Module : 03
+                                    <button class="preview-btn">Preview</button>
+                                </p>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordion">
+                                <div class="accordion-item-body">
+                                    <ul>
+                                        <li>- Load testing, stress testing, and scalability testing</li>
+                                        <li>- Performance testing tools (e.g., JMeter, LoadRunner)</li>
+                                        <li>- Defect Management</li>
+                                        <li>- Defect lifecycle and defect tracking</li>
+                                        <li>- Bug reporting and analysis</li>
+                                        <li>- Agile and DevOps in QA</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-item-header" id="headingFour" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <p class="mb-0"><span><i class="ri-add-line"></i></span> Module : 04
+                                    <button class="preview-btn">Preview</button>
+                                <p>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordion">
+                                <div class="accordion-item-body">
+                                    <ul>
+                                        <li>- Integrating QA in Agile and DevOps methodologies</li>
+                                        <li>- Continuous testing and continuous integration (CI/CD)</li>
+                                        <li>- Introduction to security testing</li>
+                                        <li>- Usability and Accessibility Testing</li>
+                                        <li>- Usability testing techniques and tools</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more sections as needed
+                        <div class="accordion-item">
+                            <div class="accordion-item-header" id="headingFive" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <p class="mb-0"><span><i class="ri-add-line"></i></span> Section 05: Lead the project
+                                    <button class="preview-btn">Preview</button>
+                                </p>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordion">
+                                <div class="accordion-item-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, velit?
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                        <div class="schedule-btn d-flex flex-wrap">
+                            <button class="schedule-btn-one" data-bs-toggle="modal"
+                                data-bs-target="#contactUsModal">Download Syllabus</button>
+
+                            <div class="modal fade" id="contactUsModal" tabindex="-1"
+                                aria-labelledby="contactUsModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title " id="contactUsModalLabel">Connect us</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="firstName"
+                                                        placeholder="First Name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" id="lastName"
+                                                        placeholder="Last Name">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <input type="email" class="form-control" id="email"
+                                                        placeholder="Email">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <div class="input-group">
+                                                        <select class="form-select" id="countryCode">
+                                                            <option value="IN">IN +91</option>
+                                                            <option value="US">US +1</option>
+                                                            <option value="UK">UK +44</option>
+                                                        </select>
+                                                        <input type="text" class="form-control" id="phoneNumber"
+                                                            placeholder="Phone Number">
+                                                    </div>
+                                                </div>
+
+                                                <div class="mb-3 form-check">
+                                                    <input type="checkbox" class="form-check-input" id="privacyPolicy">
+                                                    <label class="form-check-label" for="privacyPolicy">By providing
+                                                        your
+                                                        contact details,
+                                                        you agree to our privacy policy</label>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="schedule-btn-two" href="#">View Schedules</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Section -->
+                <div class="col-md-4">
+                    <div class="info-box">
+                        <h5 class="text-center">Request more information</h5>
+                        <form class="mt-5">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="firstName" placeholder="Name*" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="Email*" required>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <select class="form-select" id="countryCode">
+                                        <option value="IN">IN +91</option>
+                                        <option value="US">US +1</option>
+                                        <option value="UK">UK +44</option>
+                                    </select>
+                                    <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number*"
+                                        required>
+                                </div>
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="privacyPolicy">
+                                <label class="form-check-label" for="privacyPolicy">By providing your contact details,
+                                    you agree to our privacy policy</label>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary mt-4">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------pmp-certificate-section---------------------->
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Left Section -->
+            <div class="col-md-6">
+                <h3>Master in QA Testing Exam and Certification</h3>
+                <div class="accordion mt-4" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is the format of the QA Testing Certification Exam?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>The exam consists of multiple-choice questions designed to test your understanding of
+                                    QA methodologies, tools, and best practices. The test covers topics including manual
+                                    and automated testing, test planning, defect management, and QA integration within
+                                    the software development lifecycle.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How do I become certified after completing the course?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Upon successfully completing the course and passing the certification exam, you will
+                                receive a certification that validates your skills and knowledge in QA Testing,
+                                enhancing your professional credibility and career prospects.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Are there any prerequisites for taking the certification exam?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                There are no mandatory prerequisites for the certification exam; however, a basic
+                                understanding of software testing concepts and completion of the course modules is
+                                highly recommended for a better success rate.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What support is available if I fail the certification exam?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                If you do not pass the certification exam on your first attempt, additional support is
+                                available, including access to revision materials, personalized feedback, and the
+                                opportunity to retake the exam.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Section -->
+            <div class="col-md-6">
+                <div class="asymmetric-box">
+                    <img src="./public/images/incolearn-certificate.jpeg" alt="PMP Certificate" class="certificate-img"
+                        loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!------------------why-bootcamp-section---------------------->
+
+    <div class="container">
+        <div class="container-for-bootcamp">
+            <section class="why-bootcamp">
+                <h2>Why Choose Our Online Master in QA Testing Bootcamp?</h2>
+                <div class="bootcamp-content">
+                    <div class="video-frame">
+                        <iframe src="https://www.youtube.com/embed/x1POjbqmU" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="info-sections">
+                        <div class="info-section">
+                            <h3>Comprehensive Curriculum</h3>
+                            <p>Gain essential QA skills with a curriculum that covers manual and automated testing, test
+                                planning, and defect management.</p>
+                        </div>
+                        <div class="info-section">
+                            <h3>Flexible Learning</h3>
+                            <p>Learn at your own pace with self-paced modules and live sessions designed to fit your
+                                schedule.</p>
+                        </div>
+                        <div class="info-section">
+                            <h3>Expert Instructors</h3>
+                            <p>Learn from seasoned professionals who provide practical insights and personalized
+                                guidance.</p>
+                        </div>
+                        <div class="info-section">
+                            <h3>Interactive Experience</h3>
+                            <p>Engage in live projects and hands-on exercises for real-world application of QA concepts.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <!----------------------after-bootcamp-faqs--------------------------->
+    <div class="container">
+        <div class="pmp-certification-last-faqs">
+            <h2 class="text-center">FAQs</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button">What is the duration of the Master in QA Testing course?</button>
+                    <div class="accordion-content">
+                        <p>The course duration is typically 6 months, with flexible learning options available to fit
+                            your schedule.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Do I need any prior experience in software testing?</button>
+                    <div class="accordion-content">
+                        <p>No prior experience is required. The course starts with the basics and gradually covers
+                            advanced concepts.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">What kind of certification will I receive after completing the
+                        course?</button>
+                    <div class="accordion-content">
+                        <p>Upon successful completion, you will receive a Master in QA Testing certification, recognized
+                            globally by the industry.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Is the course content updated to include the latest testing tools
+                        and practices?</button>
+                    <div class="accordion-content">
+                        <p>Yes, the curriculum is regularly updated to include the latest tools, technologies, and best
+                            practices in QA testing.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Are there any job placement services after course
+                        completion?</button>
+                    <div class="accordion-content">
+                        <p>Yes, we provide career support including resume building, interview preparation, and job
+                            placement assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Courses Section End -->
+
+
+    <!-----------------------Footer----------------------->
+    <footer>
+        <div class="container-footer" style="width: 100%;
+        position: relative;
+        color: white;
+        background-image: url(./public/images/independence-hall-philadelphia-pennsylvania-usa.jpg);
+        background-size: cover;">
+            <div class="row">
+                <div class="col-md-2 footer-top-xyz">
+                    <h1><img src="./public/images/logo-x.png" height="200px" width="200px" loading="lazy"></h1>
+                    <p style="color: white; margin-top: 15px; font-size: 15px; font-weight: normal;">
+                        World's largest online learning platform.Study at your own space anytime, anywhere.
+                    </p>
+                    <p style="font-weight: normal;">Join Our Newsletter</p>
+                    <form action="" class="footer-news">
+                        <input type="text" placeholder="Enter Your Email" />
+                        <button>Submit</button>
+                    </form>
+
+                    <!---------
+                    <div class="footer-social-media">
+                        <i class="bi bi-whatsapp"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                    </div>------>
+                </div>
+                <div class="col-md-2">
+                    <p>Trending Courses</p>
+                    <ul>
+                        <li>Fullstack Development</li>
+                        <li>QA Testing</li>
+                        <li>Advance Excel</li>
+                        <li>Business Development</li>
+                        <li>SAP</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <p>Quick Links</p>
+                    <ul>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="./courses.html">
+                            <li>Courses</li>
+                        </a>
+                        <a href="blog.html">
+                            <li>Blog</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>Contact Us</li>
+                        </a>
+                        <a href="privacy.html">
+                            <li>Terms & Conditions</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-md-2 footer-social">
+                    <p>Contact Us</p>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="bi bi-telephone-inbound"></i> Call Us: +91-8330965820</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-envelope"></i>Mail: enquiry@incolearn.com</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-geo-alt-fill"></i>Visit Us: Sai Saraswati Complex, District
+                                Centre,
+                                Chandrasekharpur</a>
+                        </li>
+                        <li>
+                            <span><i class="bi bi-facebook"></i></span>
+                            <span class="me-5"><i class="bi bi-twitter-x"></i></span>
+                            <span class="me-5"><i class="bi bi-linkedin"></i></span>
+                            <span class="me-5"><i class="bi bi-instagram"></i></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+            <div class="copy" style="border-top: 1px solid white; padding: 10px 0; text-align: center;">
+                <p style="color: white; display: inline-block;">IncoLearN &copy; 2024</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

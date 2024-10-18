@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/x-icon" href="./public/images/logo-x11.png">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Incolearn | Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="top-bar">
+            <div class="top-bar__content">
+                <section class="phone">
+                    <i class="fa-solid fa-phone icon"></i>
+                    <span>+91-8330965820</span>
+                </section>
+                <section class="email">
+                    <i class="fa-solid fa-envelope icon"></i>
+                    <span>enquiry@incolearn.com</span>
+                </section>
+                <div class="top-bar-login">
+                    <span><a class="text-light" href="./login-form.html">Login</a></span>
+                    <span><a>|</a></span>
+                    <span><a class="text-light" href="./register-form.html">Register</a></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bottom-bar">
+            <div class="bottom-bar__content">
+                <a href="blog.html" class="logo">
+                    <img class="logo__img" src="./public/images/logo-x1.png" alt="logo" loading="lazy">
+                </a>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="courses.html" class="nav__link">Courses</a></li>
+                        <li><a href="under-const.html" class="nav__link">Live Projects</a></li>
+                        <li><a href="blog.html" class="nav__link">Blogs</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="nav__link dropdown-toggle">More</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="events.html">Our Events</a></li>
+                                <li><a href="under-const.html">Career</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!------------------------Blog-section--------------->
+    <div class="container-blog">
+        <h2 class="blog-container-heading">Welcome to Our Blog</h2>
+        <div class="row">
+            <!-- First full-width blog card -->
+            <div class="col-md-8 mb-4 mt-2">
+                <div class="card-blog">
+                    <a href="./nested-blog-page.html"><img src="./public/images/62387.jpg" class="card-img-top" alt="Blog Image" loading="lazy"></a>
+                    <div class="card-body">
+                        <a href="./nested-blog-page.html"><h5 class="card-title">Full Stack Development</h5></a>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                            posuere
+                            erat a ante.</p>
+                        <p class="card-text"><small class="text-muted">Posted on May 24, 2024</small></p>
+                    </div>
+                    <a href="./nested-blog-page.html"><button class="blog-btn">Read More</button></a>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4 mb-4">
+                        <div class="card-blog">
+                            <a href="./nested-blog-page.html"><img src="./public/images/student-1.jpg" class="card-img-top" alt="Blog Image"
+                                loading="lazy"></a>
+                            <div class="card-body">
+                                <a href="./nested-blog-page.html"><h5 class="card-title">QA Testing</h5></a>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer
+                                    posuere erat a ante.</p>
+                                <p class="card-text"><small class="text-muted">Posted on May 24, 2024</small></p>
+                            </div>
+                            <a href="./nested-blog-page.html"><button class="blog-btn">Read More</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card-blog">
+                            <a href="./nested-blog-page.html"><img src="./public/images/student-2.jpg" class="card-img-top" alt="Blog Image"
+                                loading="lazy"></a>
+                            <div class="card-body">
+                                <a href="./nested-blog-page.html"><h5 class="card-title">Advance Excel</h5></a>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer
+                                    posuere erat a ante.</p>
+                                <p class="card-text"><small class="text-muted">Posted on May 24, 2024</small></p>
+                            </div>
+                            <a href="./nested-blog-page.html"><button class="blog-btn">Read More</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card-blog">
+                            <a href="./nested-blog-page.html"><img src="./public/images/student-3.jpg" class="card-img-top" alt="Blog Image"
+                                loading="lazy"></a>
+                            <div class="card-body">
+                                <a href="./nested-blog-page.html"><h5 class="card-title">Product Management</h5></a>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer
+                                    posuere erat a ante.</p>
+                                <p class="card-text"><small class="text-muted">Posted on May 24, 2024</small></p>
+                            </div>
+                            <a href="./nested-blog-page.html"><button class="blog-btn">Read More</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card-blog">
+                            <a href="./nested-blog-page.html"><img src="./public/images/student-1.jpg" class="card-img-top" alt="Blog Image"
+                                loading="lazy"></a>
+                            <div class="card-body">
+                                <a href="./nested-blog-page.html"><h5 class="card-title">Digital Marketing</h5></a>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer
+                                    posuere erat a ante.</p>
+                                <p class="card-text"><small class="text-muted">Posted on May 24, 2024</small></p>
+                            </div>
+                            <a href="./nested-blog-page.html"><button class="blog-btn">Read More</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card-blog">
+                            <a href="./nested-blog-page.html"><img src="./public/images/student-2.jpg" class="card-img-top" alt="Blog Image"
+                                loading="lazy"></a>
+                            <div class="card-body">
+                                <a href="./nested-blog-page.html"><h5 class="card-title">Project Management</h5></a>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer
+                                    posuere erat a ante.</p>
+                                <p class="card-text"><small class="text-muted">Posted on May 24, 2024</small></p>
+                            </div>
+                            <a href="./nested-blog-page.html"><button class="blog-btn">Read More</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card-blog">
+                            <a href="./nested-blog-page.html"><img src="./public/images/student-3.jpg" class="card-img-top" alt="Blog Image"
+                                loading="lazy"></a>
+                            <div class="card-body">
+                                <a href="./nested-blog-page.html"><h5 class="card-title">Web development</h5></a>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer
+                                    posuere erat a ante.</p>
+                                <p class="card-text"><small class="text-muted">Posted on May 24, 2024</small></p>
+                            </div>
+                            <a href="./nested-blog-page.html"><button class="blog-btn">Read More</button></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card-blog">
+                            <a href="./nested-blog-page.html"><img src="./public/images/student-3.jpg" class="card-img-top" alt="Blog Image"
+                                loading="lazy"></a>
+                            <div class="card-body">
+                                <a href="./nested-blog-page.html"><h5 class="card-title">Php</h5></a>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                    posuere erat a ante.</p>
+                                <p class="card-text"><small class="text-muted">Posted on May 24, 2024</small></p>
+                            </div>
+                            <a href="./nested-blog-page.html"><button class="blog-btn">Read More</button></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card-blog">
+                            <a href="./nested-blog-page.html"><img src="./public/images/student-3.jpg" class="card-img-top" alt="Blog Image"
+                                loading="lazy"></a>
+                            <div class="card-body">
+                                <a href="./nested-blog-page.html"><h5 class="card-title">Blog Post Title 3</h5></a>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                    posuere erat a ante.</p>
+                                <p class="card-text"><small class="text-muted">Posted on May 24, 2024</small></p>
+                            </div>
+                            <a href="./nested-blog-page.html"><button class="blog-btn">Read More</button></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card-blog">
+                            <a href="./nested-blog-page.html"><img src="./public/images/student-3.jpg" class="card-img-top" alt="Blog Image"
+                                loading="lazy"></a>
+                            <div class="card-body">
+                                <a href="./nested-blog-page.html"> <h5 class="card-title">Blog Post Title 3</h5></a>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                    posuere erat a ante.</p>
+                                <p class="card-text"><small class="text-muted">Posted on May 24, 2024</small></p>
+                            </div>
+                            <a href="./nested-blog-page.html"><button class="blog-btn">Read More</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sidebar content -->
+            <div class="col-md-4 mb-4 mt-5">
+
+                <div class="blog_content right_content">
+
+                    <div class="columns search_column">
+                        <section class="search">
+                            <form>
+                                <fieldset><input type="text" name="search" placeholder="Search..." maxlength="100"
+                                        required="">
+                                </fieldset>
+                                <fieldset><button type="submit" class="blog-btn1"><i class="fa fa-search"></i></button>
+                                </fieldset>
+                            </form>
+                        </section>
+                    </div>
+                    <!--SEARCH COLUMN ENDS-->
+                    <!--BOOKS COLUMN BEGINING-->
+                    <div class="columns books">
+                        <span class="title">New Books <a href="#" title="Explore More"><i
+                                    class="fa fa-share text-light"></i></a></span>
+                        <section>
+                            <div class="cards">
+                                <div class="card_part card_part-one"
+                                    style="background-image: url(./public/images/book-1.jpg);"></div>
+                                <div class="card_part card_part-two"
+                                    style="background-image: url(./public/images/book-2.jpg);"></div>
+                                <div class="card_part card_part-three"
+                                    style="background-image: url(./public/images/book-3.jpg);"></div>
+                                <div class="card_part card_part-four"
+                                    style="background-image: url(./public/images/book-4.jpg);"></div>
+                            </div>
+                        </section>
+                    </div>
+                    <!--BOOKS COLUMN ENDS-->
+                    <!--CATEGORIES COLUMN BEGINING-->
+                    <div class="columns categories">
+                        <span class="title">Categories</span>
+                        <section>
+                            <a href="#">Lorem, ipsum.</a>
+                            <a href="#">Lorem, ipsum.</a>
+                            <a href="#">Lorem ipsum dolor sit.</a>
+                            <a href="#">Lorem, ipsum dolor.</a>
+                            <a href="#">Lorem, ipsum.</a>
+                            <a href="#">Lorem, ipsum dolor.</a>
+                            <a href="#">Lorem ipsum dolor sit.</a>
+                        </section>
+                    </div>
+                    <!--CATEGORIES COLUMN ENDS-->
+                    <!--POSTS COLUMN BEGINING-->
+                    <div class="columns posts">
+                        <span class="title">Recent Posts <a href="#" title="Explore More"><i
+                                    class="fa fa-share text-light"></i></a></span>
+                        <section>
+                            <a href="#"><img src="./public/images/book-1.jpg" alt="" loading="lazy">
+                                <p>Be brave, be strong, be bold. Man dies but once. </p>
+                            </a>
+                            <a href="#"><img src="./public/images/book-2.jpg" alt="" loading="lazy">
+                                <p>Be brave, be strong, be bold. Man dies but once. </p>
+                            </a>
+                            <a href="#"><img src="./public/images/book-3.jpg" alt="" loading="lazy">
+                                <p>Be brave, be strong, be bold. Man dies but once. </p>
+                            </a>
+                        </section>
+                    </div>
+                    <!--POSTS COLUMN ENDS-->
+                    <!--COMMENTS COLUMN BEGINING-->
+                    <div class="columns comments">
+                        <span class="title"> Recent Comments <a href="#" title="Explore More"><i
+                                    class="fa fa-share text-light"></i></a></span>
+                        <section>
+                            <marquee direction="up" scrollamount="4" onMouseOver="this.stop()" onMouseOut="this.start()"
+                                class="marquee2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, soluta!</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, architecto
+                                    necessitatibus? Ad quo enim harum dolor aliquid vero assumenda debitis.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error commodi minus omnis
+                                    quia!
+                                    Commodi, et.</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </marquee>
+                        </section>
+                    </div>
+                    <!--COMMENTS COLUMN ENDS-->
+                    <!--SOCIAL MEDIA ICONS BEGINING-->
+                    <div class="columns social_icons">
+                        <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" title="Youtube"><i class="bi bi-youtube"></i></a>
+                        <a href="#" title="Whatsapp"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" title="Telegram"><i class="bi bi-telegram"></i></a>
+                    </div>
+                    <!--SOCIAL MEDIA ICONS ENDS-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-----------------------Footer----------------------->
+    <footer>
+        <div class="container-footer" style="width: 100%;
+        position: relative;
+        color: white;
+        background-image: url(./public/images/independence-hall-philadelphia-pennsylvania-usa.jpg);
+        background-size: cover;">
+            <div class="row">
+                <div class="col-md-2 footer-top-xyz">
+                    <h1><img src="./public/images/logo-x.png" height="200px" width="200px" loading="lazy"></h1>
+                    <p style="color: white; margin-top: 15px; font-size: 15px; font-weight: normal;">
+                        World's largest online learning platform.Study at your own space anytime, anywhere.
+                    </p>
+                    <p style="font-weight: normal;">Join Our Newsletter</p>
+                    <form action="" class="footer-news">
+                        <input type="text" placeholder="Enter Your Email" />
+                        <button>Submit</button>
+                    </form>
+
+                    <!-------
+                    <div class="footer-social-media">
+                        <i class="bi bi-whatsapp"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                    </div>----->
+                </div>
+                <div class="col-md-2">
+                    <p>Trending Courses</p>
+                    <ul>
+                        <li>Fullstack Development</li>
+                        <li>QA Testing</li>
+                        <li>Advance Excel</li>
+                        <li>Business Development</li>
+                        <li>SAP</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <p>Quick Links</p>
+                    <ul>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="./courses.html">
+                            <li>Courses</li>
+                        </a>
+                        <a href="blog.html">
+                            <li>Blog</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>Contact Us</li>
+                        </a>
+                        <a href="privacy.html">
+                            <li>Terms & Conditions</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-md-2 footer-social">
+                    <p>Contact Us</p>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="bi bi-telephone-inbound"></i> Call Us: +91-8330965820</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-envelope"></i>Mail: enquiry@incolearn.com</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-geo-alt-fill"></i>Visit Us: Sai Saraswati Complex, District
+                                Centre,
+                                Chandrasekharpur</a>
+                        </li>
+                        <li>
+                            <span><i class="bi bi-facebook"></i></span>
+                            <span class="me-5"><i class="bi bi-twitter-x"></i></span>
+                            <span class="me-5"><i class="bi bi-linkedin"></i></span>
+                            <span class="me-5"><i class="bi bi-instagram"></i></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+            <div class="copy" style="border-top: 1px solid white; padding: 10px 0; text-align: center;">
+                <p style="color: white; display: inline-block;">IncoLearN &copy; 2024</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
